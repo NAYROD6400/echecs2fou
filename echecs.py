@@ -1,3 +1,5 @@
+
+
 def creerEchiquier():
     echiquier = []
     for _ in range(8):
@@ -9,7 +11,9 @@ def creerEchiquier():
 
 def afficherEchiquier(echiquier):
     for ligne in range(8):
-        print(echiquier[ligne])
+        print("")
+        for i in range(8):
+            print(echiquier[ligne][i], end=' ')
 
 
 def placerPiece(echiquier):
